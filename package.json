@@ -1,0 +1,20 @@
+{
+    "name": "vscode-twilight-dark",
+    "version": "0.1.0",
+    "publisher": "jaredru",
+
+    "displayName": "Twilight Dark",
+    "description": "base16 twilight dark theme",
+
+    "engines": { "vscode": "*" },
+
+    "contributes": {
+        "themes": [
+            {
+                "label": "Twilight Dark",
+                "uiTheme": "vs-dark",
+                "path": "./twilight-dark.json"
+            }
+        ]
+    }
+}
